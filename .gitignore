@@ -7,5 +7,5 @@ expo-env.d.ts
 android/
 ios
 .env*
-.expo
+.expo/
 node_modules/

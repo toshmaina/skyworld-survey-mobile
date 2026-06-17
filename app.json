@@ -4,7 +4,7 @@
     "slug": "simple-survey-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "assets/AppIcons/playstore.png",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/splash.png",
@@ -26,10 +26,7 @@
     "plugins": [
       "expo-router",
       "expo-secure-store",
-      [
-        "expo-document-picker",
-        { "iCloudContainerEnvironment": "Production" }
-      ]
+      ["expo-document-picker", { "iCloudContainerEnvironment": "Production" }]
     ],
     "scheme": "skysurvey",
     "experiments": {
