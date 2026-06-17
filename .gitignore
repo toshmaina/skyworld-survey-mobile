@@ -4,8 +4,8 @@
 
 expo-env.d.ts
 # @end expo-cli
-android
+android/
 ios
 .env*
 .expo
-node_modules
+node_modules/
