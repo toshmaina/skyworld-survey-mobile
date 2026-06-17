@@ -28,6 +28,7 @@ export async function login(
     },
     responseType: "text",
   });
+  console.log(response.data);
 
   return parseAuthResponse(response.data);
 }
