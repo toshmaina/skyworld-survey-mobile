@@ -11,7 +11,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#1a1a2e"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.skyworld.survey"
@@ -26,11 +28,24 @@
     "plugins": [
       "expo-router",
       "expo-secure-store",
-      ["expo-document-picker", { "iCloudContainerEnvironment": "Production" }]
+      [
+        "expo-document-picker",
+        {
+          "iCloudContainerEnvironment": "Production"
+        }
+      ]
     ],
     "scheme": "skysurvey",
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "0a350009-e06d-4d60-baac-66ba17dcd26b"
+      }
     }
   }
 }
